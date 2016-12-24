@@ -1,11 +1,17 @@
 # githubR
 
-The goal of githubR is to ...
+This package is wrapper around the Google Slides API and it serves to power data flows from R environment to Google Slides.
 
-## Example
+You can install the package by going through the following:
 
-This is a basic example which shows you how to solve a common problem:
-
-```R
-...
 ```
+install.packages("devtools")
+library(devtools)
+devtools::install_github("hairizuanbinnoorazman/googleslides", build_vignettes = TRUE)
+```
+
+If you encounter a bug while using the package, take a screenshot of the error and file an issue on this repository.
+
+## Status of package
+
+This package is currently under construction

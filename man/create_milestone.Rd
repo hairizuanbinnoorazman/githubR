@@ -18,7 +18,7 @@ create_milestone(owner, repo, title = NULL, description = NULL,
 
 \item{state}{The state of the milestone. Either open or closed.}
 
-\item{due_on}{A date in YYYY-MM-DD formate}
+\item{due_on}{A date in YYYY-MM-DD format}
 }
 \description{
 Create milestone
