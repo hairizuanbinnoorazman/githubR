@@ -1,4 +1,4 @@
-#' List Columns in a Project
+#' List Milestones in a Repository
 #' @param owner The owner of the repository. In a repo name, it would be the part before the slash.
 #' @param repo The name of the repository
 #' @param state The state of the milestone. Either open, closed, or all.
@@ -20,9 +20,10 @@ list_milestones <- function(owner, repo, state='open', sort='due_on', direction=
   return(result_list)
 }
 
-#' Get Project details
+#' Get Milestone details
 #' @param owner The owner of the repository. In a repo name, it would be the part before the slash.
 #' @param repo The name of the repository
+#' @param milestone_id The milestone_id of the milestone
 #' @importFrom httr config add_headers GET
 #' @export
 get_milestone <- function(owner, repo, milestone_id){
