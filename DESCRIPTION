@@ -1,0 +1,16 @@
+Package: githubR
+Type: Package
+Title: This package aims to make it easier to manage Github Repositories by
+    using R scripts
+Version: 0.1.0
+Author: Hairizuan
+Maintainer: <hairizuanbinnooorazman@gmail.com>
+Description: Use this package to power R scripts that can help automate portions
+    of Github repository management. If you report off Github, you can use this
+    package to deal with extracting that data which you then use familiar R packages
+    to get the report you need for your reports.
+License: MIT + file LICENSE
+LazyData: TRUE
+Suggests:
+    testthat
+RoxygenNote: 5.0.1
