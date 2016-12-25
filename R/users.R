@@ -1,4 +1,5 @@
 #' Get User Information on a user
+#' @param username Github Username
 #' @importFrom httr GET add_headers config
 #' @export
 get_user <- function(username){
