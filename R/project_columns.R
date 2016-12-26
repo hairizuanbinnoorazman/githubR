@@ -1,4 +1,5 @@
 #' List Columns in a Project
+#' @param project_id
 #' @importFrom httr config add_headers GET
 #' @export
 list_project_columns <- function(project_id){
