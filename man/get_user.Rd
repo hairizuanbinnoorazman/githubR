@@ -6,6 +6,9 @@
 \usage{
 get_user(username)
 }
+\arguments{
+\item{username}{Github Username}
+}
 \description{
 Get User Information on a user
 }
