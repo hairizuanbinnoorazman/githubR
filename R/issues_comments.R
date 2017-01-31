@@ -28,7 +28,7 @@ list_issues_comments <- function(owner, repo, number, since = NULL){
 #' @param body The contents of the comment.
 #' @importFrom httr config add_headers GET
 #' @export
-list_issues_comments <- function(owner, repo, number, body = NULL){
+create_issue_comment <- function(owner, repo, number, body = NULL){
   url <- paste0('https://api.github.com/repos/', owner, '/', repo, '/issues/', number, '/comments')
   # Body parameters
   if(is.null(body)){
